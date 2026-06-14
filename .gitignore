@@ -1,0 +1,60 @@
+# === Build output ===
+*.class
+bin/
+build/
+target/
+
+# === IDE / Editor ===
+.idea/
+*.iml
+.vscode/
+.cursor/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+
+# === Claude Code ===
+.claude/
+
+# === CPLEX (commercial software, not included) ===
+lib/
+
+# === CPLEX logs ===
+*.log
+hs_err_*.log
+replay_*.log
+
+# === Experiment data (not included in release) ===
+alldata/
+alldata_*/
+data/
+
+# === Experiment outputs ===
+output_*/
+test_ablation*/
+test_acceleration*/
+
+# === Chinese-named experiment directories ===
+加战略实验/
+加策略融合实验/
+
+# === Results / Temp files ===
+results_*.csv
+*.tmp
+*.bak
+gamma.txt
+st.txt
+~$*.xlsx
+
+# === Python ===
+__pycache__/
+*.pyc
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+CLAUDE.md
